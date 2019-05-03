@@ -1,8 +1,6 @@
 #!/bin/bash
 #
-# https://github.com/Nyr/openvpn-install
-#
-# Copyright (c) 2013 Nyr. Released under the MIT License.
+
 
 
 # Detect Debian users running the script with "sh" instead of bash
@@ -403,3 +401,6 @@ verb 3" > /etc/openvpn/client-common.txt
 	echo "Your client configuration is available at:" ~/"$CLIENT.ovpn"
 	echo "If you want to add more clients, you simply need to run this script again!"
 fi
+
+#
+# Copyright (c) 2013 Nyr. Released under the MIT License.
